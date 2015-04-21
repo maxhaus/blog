@@ -36,7 +36,7 @@ nav {
 nav.menu-open {
   transform: translateX(-14rem);
   width: 100%;
-  @media (min-width: 940px) {
+  @media (min-width: 960px) {
     width: 30%;
   }
 }

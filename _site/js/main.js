@@ -5,7 +5,7 @@ function toggle() {
 	  var nav = document.getElementById("nav");
 	  var button = document.getElementById("menu");
 	  var site = document.getElementById("wrap");
-	  
+
 	  if (nav.className == "menu-open") {
 	  	  nav.className = "";
 	  	  button.className = "";
