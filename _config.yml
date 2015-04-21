@@ -1,0 +1,29 @@
+# Site settings
+title: X-Obscura | A simple Jekyll blog
+description: "A minimal blog, built with Jekyll."
+url:
+author:
+  name: "max lee"
+  url:
+
+# Build settings
+baseurl: /blog/
+# Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.1"
